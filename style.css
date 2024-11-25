@@ -1,0 +1,377 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eeee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(181, 179, 179);
+}
+
+nav .logo {
+    margin-left: 22px;
+    font-size: 24px;
+}
+
+ul {
+    margin-right: 45px;
+    margin-top: 7px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+
+ul li i {
+    font-size: 22px;
+}
+
+ul li #home {
+    color: rgb(5, 187, 187);
+}
+
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .mainText {
+    margin-top: 144px;
+}
+
+.mainText h1{
+    font-size: 64px;
+    color: rgb(9, 151, 151);
+}
+
+.mainText .top {
+    color: rgb(9, 151, 151);
+}
+
+.mainText button {
+    width: 145px;
+    height: 40px;
+    background-color: rgb(9, 151, 151);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+}
+
+.mainText p {
+    margin-top: 24px;
+}
+
+.mainText button:hover {
+    border : 3px solid rgb(9, 151, 151);
+    background-color: transparent;
+    color: rgb(22, 192, 192);
+}
+
+
+/* text area */
+.head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top:  22px;
+}
+
+.head span {
+    color: rgb(9, 151, 151);
+}
+
+.card {
+    display : flex;
+    justify-content: center;
+}
+
+.card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px;
+}
+
+.crd img {
+    width: 85%;
+    padding: 22px;
+    border-radius: 31px;
+    /* height: 70%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px; */
+}
+
+.crdText {
+    margin-left: 21px;
+    padding: 8px;
+}
+
+.crdText button{
+   width : 130px;
+   height: 33px;
+   border: none;
+   background-color: rgb(9, 151, 151);
+   /* background-color: rgb(5. 141, 141); */
+   color: white;
+   font-size: 19px; 
+   margin-top: 11px;
+}
+
+.crdText i{
+    color: rgb(239, 235, 44);
+}
+
+
+/* blog area*/ 
+
+.blog {
+    display: flex;
+    /* box-sizing: border-box; */
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    border-radius: 11px;
+}
+
+.blog:hover {
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+.blog img {
+    padding : 22px;
+    width: 50%;
+}
+
+.blogText {
+    padding: 22px;
+    margin-top: 33px;
+}
+
+.blogText a {
+    width: 130px;
+    padding: 3px;
+    height: 18px;
+    background-color: rgb(9, 151, 151);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    /* margin-top: 22px; */
+    position: relative;
+    top: 33px;
+}
+
+
+/* lettera area */
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(2, 2, 66);
+    padding: 43px;
+}
+
+.inp {
+    display: flex;
+}
+.inp input {
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+.inp button {
+    width: 100px;
+    height: 33px;
+    color: white;
+    border: none;
+    background-color: rgb(9, 151, 151);
+}
+
+/* footer area */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+
+.footer .footerText {
+    margin-inline: 85px;
+}
+
+.footerText p {
+    margin-top: 11px;
+}
+
+
+/* about us */
+
+.about {                /* means jab mai bolu tab hi ye dikhe */
+    display: none;   
+}
+
+.aboutus {
+    background-color: rgb(2, 2, 66);
+    color: white;
+    padding: 56px;
+    font-size: 22px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: white;
+    padding: 33px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.me img {
+    width: 54%;
+}
+
+/* contact */
+
+.contactus {
+    background-color: rgb(2, 2, 66);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+
+.contactMe{
+    display:flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    background-color: white;
+    margin-left: 10%;
+}
+
+.contactMe img {
+    width: 55%;
+}
+
+.contactText {
+    padding: 22px;
+    width: 600px;
+}
+
+.contactText p{
+    margin-top: 12px;
+}
+
+
+/* form */
+
+.contact {
+    display: none;
+}
+
+.form {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form input {
+    width: 300px;
+    height: 27px;
+    padding: 5px;
+    margin-top: 11px;
+}
+
+.form button {
+    width: 300px;
+    height: 36px;
+    background-color: rgb(9, 151, 151);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+/* Clikable images */
+.cart {
+    display : flex;
+    justify-content : center;
+    display: none;
+}
+
+.cartText {
+    padding: 22px;
+    margin-top: 23px;
+}
+
+.cartText p {
+    margin-top: 12px;
+}
+
+.cartText h2 {
+    margin-top: 11px;
+}
+
+.cartText .btn button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(253, 101, 0);
+    /* background-color: rgb(36, 159, 236); */
+    color: white;
+    font-size: 23px;
+    margin-inline: 11px;
+    margin-top: 23px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;  
+}
+
+.cartText .back {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(9, 151, 151);
+    color: white;
+    font-size: 23px;
+    margin-inline: 11px;
+    margin-top: 23px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;  
+}
+
+

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendss</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- navbarr -->
+        <nav>
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="Shop" onclick="shops()">Shops</a>
+                    <a id="blog" onclick="blogs()">Blogs</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <!-- <a href="https://fontawesome.com/icons/cart-shopping?f=classic&s=solid"></a> -->
+                </li>
+            </ul>
+        </nav>
+
+        <!-- main page -->
+        <div class="main">
+            <div class="mainText">
+                <h2>Trends</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Trending Fasionable things are here</p>
+                <button>Explore</button>
+                <!-- <img src="images/girl-1.png" alt="Model pic"> -->
+            </div>
+            <img src="images/girl-1.png" alt="Model pic">
+        </div>
+
+
+        <!--Men carts -->
+        <div class="trend">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="images/shirt-1.webp" alt="shirt-1" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="images/shirt-2.webp" alt="shirt-1" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="images/shirt-3.webp" alt="shirt-1" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Womens cart-->
+        <div class="trend" id="trendSec">
+            <div class="head">
+                <h1>Trends <span>Women's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="images/girl-2.webp" alt="kurti-1" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl kurti's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="images/girl-3.webp" alt="kurti-2" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl kurti's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="images/girl-4.webp" alt="kurti-3" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl kurti's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about us section -->
+        <div class="about">
+            <div class="aboutus">
+                <h1>#Know US</h1>
+                <p>Discover a seamless shopping experience on our e-commerce platform! Explore a wide range of products,
+                    enjoy exclusive deals, secure payments, and fast delivery—all tailored to meet your needs.</p>
+            </div>
+
+            <div class="me">
+                <img src="images/lap.png" alt="hamrebaremai">
+                <div class="aboutText">
+                    <h1>Who we are ?</h1>
+                    <p>"Welcome to our e-commerce platform, your trusted destination for quality products at unbeatable
+                        prices. We are dedicated to bringing you a seamless shopping experience, offering a wide range
+                        of categories to meet your every need. With a commitment to excellence, secure transactions, and
+                        fast delivery, we aim to make online shopping convenient and enjoyable for everyone. Your
+                        satisfaction is our priority—shop with confidence!"
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact page -->
+        <div class="contact">
+            <div class="contactus">
+                <h1>#Let's Connect</h1>
+                <p>Stay connected with us! Follow our social media channels for the latest updates, exclusive offers,
+                    and exciting deals. Have questions or feedback? Reach out anytime we are here to help you 24/7!</p>
+            </div>
+
+            <div class="contactMe">
+                <div class="contactText">
+                    <h1>Visit Our Office Or Contact Us Today</h1>
+                    <p>Address : Krishna Nagar Near City Mall, Delhi, India </p>
+                    <p>Contact : trendsmart34@gmail.com</p>
+                    <p>Number : 98088-97087</p>
+                </div>
+                <img src="images/map.PNG" alt="maps">
+            </div>
+
+            <div class="form">
+                <h1>Contact With Us Fill Form</h1>
+                <input type="text" placeholder="Enter Your FirstName"> <br>
+                <input type="text" placeholder="Enter Your LastName"> <br>
+                <input type="text" placeholder="Enter Your Email"> <br>
+                <input type="text" placeholder="Enter Your Number"> <br>
+                <input type="text" placeholder="Enter Your Address"> <br>
+                <button>Subbmit</button>
+            </div>
+        </div>
+
+        <!-- carts clickable photos -->
+        <div class="cart">
+            <img id="newImg" src="" alt="">
+            <div class="cartText">
+                <h1>Trends Offer : Trending Shop <br> Now</h1>
+                <h2>Special Price</h2>
+                <h2>1299</h2>
+                <p>Shop quality you can feel and style you’ll love – only at Trends!</p>
+                <p>Celebrate every occasion in style discover clothes that match your vibe</p>
+                <p>Your dream outfit is just a click away shop now for a seamless shopping experience!</p>
+                <div class="btn">
+                    <button>Buy Now</button>
+                    <button onclick="addCart()">Add To Cart</button>
+                </div>
+                <button class="back">Back</button>
+            </div>
+        </div>
+
+
+        <!-- trends blogs-->
+        <div class="trends">
+            <div class="head">
+                <h1>Trends <span>Men's and Women's Wear Article</span></h1>
+            </div>
+            <div class="card">
+                <div class="blog">
+                    <img src="images/girl-5.webp">
+                    <div class="blogText">
+                        <h2>Trending Girl Cloths</h2>
+                        <p>Best Trending Fashion For Girl's Read The Article For More Details</p>
+                        <a href="https://www.flipkart.com/clothing-and-accessories/saree-and-accessories/saree/women-saree/pr?sid=clo,8on,zpd,9og&otracker=categorytree&otracker=nmenu_sub_Women_0_Sarees"
+                            target=”_blank”>Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog">
+                    <img src="images/t-shirt-1.webp">
+                    <div class="blogText">
+                        <h2>Trending Men's Cloths</h2>
+                        <p>Best Trending Fashion For Men's Read The Article For More Details</p>
+                        <a href="https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_ce1c6d71-8ba8-4e33-a9b0-791be7105a0c_1_372UD5BXDFYS_MC.AHHHWF67UPNB&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Fashion~Men%27s%2BTop%2BWear~All_AHHHWF67UPNB&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=AHHHWF67UPNB"
+                            target=”_blank”>Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- letter -->
+        <div class="letter">
+            <div class="letterText">
+                <h1>Sign Up For Newsletter</h1>
+                <p> Get Latest Notification From Trending Fashion
+                </p>
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Enter Email">
+                <button>Sign Up</button>
+            </div>
+
+        </div>
+
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footerText">
+                <h2>Trends</h2>
+                <p>Services</p>
+                <p>Customer</p>
+                <p>Satisfaction</p>
+            </div>
+
+            <div class="footerText">
+                <h2>About us</h2>
+                <p>Address : Krishna Nagar Near City Mall <br> Delhi India <br>
+                </p>
+                <p>Services</p>
+                <p>Customer</p>
+                <p>Satisfaction</p>
+            </div>
+
+            <div class="footerText">
+                <h2>Contact</h2>
+                <p>98088-97087</p>
+                <p>Customer</p>
+                <p>Comming up</p>
+                <p>New Arrival</p>
+            </div>
+
+            <div class="footerText">
+                <h2>Trending</h2>
+                <p>Services</p>
+                <p>Customer</p>
+                <p>Shops</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
